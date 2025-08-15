@@ -1,0 +1,1182 @@
+CRITICAL - 2025-01-21 05:41:27 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/save-send-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 701.
+ 1 APPPATH/Controllers/Admin_cntrl.php(701): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 701)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavesendquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:41:46 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/save-send-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 701.
+ 1 APPPATH/Controllers/Admin_cntrl.php(701): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 701)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavesendquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:23:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:23:44 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:23:54 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:24:22 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:24:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 06:26:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 06:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 06:26:50 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 06:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 06:27:32 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 06:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 06:28:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(1127): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:14:25 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: admin]
+in APPPATH/Views/admin/dashboard.php on line 17.
+ 1 APPPATH/Views/admin/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/admin/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/dashboard', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(91): view('/admin/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:14:28 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: admin]
+in APPPATH/Views/admin/dashboard.php on line 17.
+ 1 APPPATH/Views/admin/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/admin/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/dashboard', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(91): view('/admin/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:14:30 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: admin]
+in APPPATH/Views/admin/dashboard.php on line 17.
+ 1 APPPATH/Views/admin/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/admin/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/dashboard', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(91): view('/admin/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:15:10 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:15:15 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:15:19 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:19:14 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:29:20 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:29:25 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:29:50 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:29:54 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:29:56 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:30:03 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:30:18 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:30:37 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:31:05 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 17.
+ 1 APPPATH/Views/dashboard.php(17): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:32:12 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard.php on line 113.
+ 1 APPPATH/Views/dashboard.php(113): date()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:45:10 --> ErrorException: Undefined global variable $defaulttimezone
+[Method: GET, Route: /]
+in APPPATH/Controllers/Customer_cntrl.php on line 17.
+ 1 APPPATH/Controllers/Customer_cntrl.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $defaulttimezone', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Customer_cntrl->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:45:12 --> ErrorException: Undefined global variable $defaulttimezone
+[Method: GET, Route: /]
+in APPPATH/Controllers/Customer_cntrl.php on line 17.
+ 1 APPPATH/Controllers/Customer_cntrl.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $defaulttimezone', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Customer_cntrl->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:45:52 --> ErrorException: Undefined global variable $defaulttimezone
+[Method: GET, Route: /]
+in APPPATH/Controllers/Customer_cntrl.php on line 23.
+ 1 APPPATH/Controllers/Customer_cntrl.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $defaulttimezone', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:48:34 --> ErrorException: Undefined global variable $defaulttimezone
+[Method: GET, Route: /]
+in APPPATH/Views/partials/Customersidebar.php on line 16.
+ 1 APPPATH/Views/partials/Customersidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $defaulttimezone', '/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php', 16)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Customersidebar', [], true)
+ 5 APPPATH/Views/dashboard.php(16): view('partials/Customersidebar', [...])
+ 6 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 9 APPPATH/Controllers/Customer_cntrl.php(58): view('dashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:48:51 --> ErrorException: Undefined global variable $defaulttimezone
+[Method: GET, Route: /]
+in APPPATH/Views/partials/Customersidebar.php on line 16.
+ 1 APPPATH/Views/partials/Customersidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $defaulttimezone', '/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php', 16)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Customersidebar', [], true)
+ 5 APPPATH/Views/dashboard.php(16): view('partials/Customersidebar', [...])
+ 6 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 9 APPPATH/Controllers/Customer_cntrl.php(58): view('dashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 07:49:48 --> Error: Call to undefined function r()
+[Method: GET, Route: /]
+in APPPATH/Views/partials/Customersidebar.php on line 14.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Customersidebar', [], true)
+ 4 APPPATH/Views/dashboard.php(16): view('partials/Customersidebar', [...])
+ 5 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/dashboard.php')
+ 6 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 8 APPPATH/Controllers/Customer_cntrl.php(56): view('dashboard', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->index()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 04:52:24 --> ErrorException: Undefined variable $dateFormat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateFormat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 04:52:56 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): date('d-m-Y', '2025-01-07 14:25:57')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:01:53 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:02:55 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:03:46 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 51.
+ 1 APPPATH/Views/list-quotation.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 51)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:04:05 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 51.
+ 1 APPPATH/Views/list-quotation.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 51)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 05:05:48 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:06:14 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:06:44 --> ErrorException: Undefined variable $dateformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:06:59 --> ErrorException: Undefined variable $dateformats
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformats', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:07:51 --> ErrorException: Undefined variable $dateformats
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 50.
+ 1 APPPATH/Views/list-quotation.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformats', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:10:48 --> ErrorException: Undefined variable $dateformats
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 51.
+ 1 APPPATH/Views/list-quotation.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformats', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 51)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:11:47 --> ErrorException: Undefined variable $dateformats
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 17.
+ 1 APPPATH/Views/list-quotation.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateformats', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 17)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:13:28 --> ErrorException: Undefined variable $datesetformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 17.
+ 1 APPPATH/Views/list-quotation.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datesetformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 17)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 05:17:30 --> ErrorException: Undefined variable $datesetformat
+[Method: GET, Route: list-quotation]
+in APPPATH/Views/list-quotation.php on line 17.
+ 1 APPPATH/Views/list-quotation.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datesetformat', '/home/havellslighting/public_html/partner/app/Views/list-quotation.php', 17)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/list-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('list-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(143): view('list-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->listquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 10:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 10:32:19 --> ErrorException: Undefined variable $rowdata
+[Method: GET, Route: seller/generate-pdf/1]
+in APPPATH/Views/salesperson/view-quote-new.php on line 69.
+ 1 APPPATH/Views/salesperson/view-quote-new.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rowdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php', 69)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-quote-new', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(246): view('/salesperson/view-quote-new', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->generate_pdf('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 10:32:47 --> ErrorException: Undefined variable $rowdata
+[Method: GET, Route: seller/generate-pdf/1]
+in APPPATH/Views/salesperson/view-quote-new.php on line 69.
+ 1 APPPATH/Views/salesperson/view-quote-new.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rowdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php', 69)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-quote-new', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(246): view('/salesperson/view-quote-new', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->generate_pdf('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 10:33:15 --> ErrorException: Undefined variable $rowdata
+[Method: GET, Route: seller/generate-pdf/1]
+in APPPATH/Views/salesperson/view-quote-new.php on line 69.
+ 1 APPPATH/Views/salesperson/view-quote-new.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rowdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php', 69)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-quote-new', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(246): view('/salesperson/view-quote-new', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->generate_pdf('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 10:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 10:49:38 --> ErrorException: Undefined array key "seller"
+[Method: GET, Route: seller/generate-pdf/1]
+in APPPATH/Views/salesperson/view-quote-new.php on line 6.
+ 1 APPPATH/Views/salesperson/view-quote-new.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seller"', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-quote-new', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(246): view('/salesperson/view-quote-new', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->generate_pdf('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 10:49:42 --> ErrorException: Undefined array key "seller"
+[Method: GET, Route: seller/generate-pdf/1]
+in APPPATH/Views/salesperson/view-quote-new.php on line 6.
+ 1 APPPATH/Views/salesperson/view-quote-new.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seller"', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-quote-new.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-quote-new', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(246): view('/salesperson/view-quote-new', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->generate_pdf('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 11:54:50 --> ErrorException: Undefined variable $Settings_mdl
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 947.
+ 1 APPPATH/Controllers/Admin_cntrl.php(947): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Settings_mdl', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 947)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 11:55:06 --> ErrorException: Undefined variable $Settings_mdl
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 947.
+ 1 APPPATH/Controllers/Admin_cntrl.php(947): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Settings_mdl', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 947)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 11:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 11:55:42 --> ErrorException: Undefined variable $Settings_mdl
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 947.
+ 1 APPPATH/Controllers/Admin_cntrl.php(947): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Settings_mdl', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 947)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 11:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 11:57:06 --> Error: Class "App\Controllers\Settings_mdl" not found
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 947.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 11:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 11:58:22 --> Error: Class "App\Controllers\Settings_mdl" not found
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 947.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-21 12:10:01 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-21 12:10:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (79,\'HLLQB-000079\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (79,\'HLLQB-000079\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:01 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (79,\'HLLQB-000079\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (79,\'HLLQB-000079\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (79,\'HLLQB-000079\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-21 12:10:14 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-21 12:10:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (80,\'HLLQB-000080\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (80,\'HLLQB-000080\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:14 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (80,\'HLLQB-000080\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (80,\'HLLQB-000080\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (80,\'HLLQB-000080\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-21 12:10:49 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-21 12:10:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (81,\'HLLQB-000081\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (81,\'HLLQB-000081\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:49 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (81,\'HLLQB-000081\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (81,\'HLLQB-000081\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (81,\'HLLQB-000081\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-21 12:10:55 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-21 12:10:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (82,\'HLLQB-000082\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (82,\'HLLQB-000082\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 12:10:55 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (82,\'HLLQB-000082\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (82,\'HLLQB-000082\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = (82,\'HLLQB-000082\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation`
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(229): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin_cntrl.php(931): App\Models\Admin_mdl->getadminidquotation([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 12:17:40 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 869.
+ 1 APPPATH/Controllers/Admin_cntrl.php(869): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 869)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 12:18:44 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(861): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-21 12:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-21 12:18:55 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: POST, Route: admin/save-download-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(861): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-21 12:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

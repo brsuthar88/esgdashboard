@@ -1,0 +1,1003 @@
+WARNING - 2025-02-26 05:48:10 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 05:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 05:48:10 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:11 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:12 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:12 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 05:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 05:48:12 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:13 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:15 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:20 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 05:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 05:48:23 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 05:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 05:48:24 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:27 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:31 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 05:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 05:48:32 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 05:48:32 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:00:54 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 01:00:54 --> ErrorException: Undefined array key "currencySymbol"
+[Method: GET, Route: admin/setting]
+in APPPATH/Views/admin/setting.php on line 186.
+ 1 APPPATH/Views/admin/setting.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currencySymbol"', '/home/havellslighting/public_html/partner1.havellslighting.com/app/Views/admin/setting.php', 186)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner1.havellslighting.com/app/Views/admin/setting.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/setting', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(181): view('/admin/setting', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->setting()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:01:24 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:01:25 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:01:26 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:01:50 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:01:51 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:01:51 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:03:20 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:03:21 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:03:21 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:03:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:03:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:03:54 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:06:13 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:06:14 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:06:14 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:06:34 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:06:34 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:06:35 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:12:04 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 06:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 06:12:05 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 06:12:05 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 07:46:48 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 07:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 07:46:49 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 07:46:49 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 07:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 07:46:50 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 07:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:05:49 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:05:50 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:05:50 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:05:57 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-26 08:05:57 --> mysqli_sql_exception: Unknown column 'key_value' in 'field list' in /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting...', 0)
+#1 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /home/havellslighting/public_html/partner1.havellslighting.com/app/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/havellslighting/public_html/partner1.havellslighting.com/app/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata(Array)
+#6 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+#7 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner1.havellslighting.com/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-26 08:05:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+[Method: POST, Route: admin/update-setting-zoho]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:05:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:05:57 --> [Caused by] mysqli_sql_exception: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:04 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:06:05 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:06:08 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:15 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-26 08:06:15 --> mysqli_sql_exception: Unknown column 'key_value' in 'field list' in /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting...', 0)
+#1 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /home/havellslighting/public_html/partner1.havellslighting.com/app/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/havellslighting/public_html/partner1.havellslighting.com/app/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata(Array)
+#6 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+#7 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner1.havellslighting.com/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-26 08:06:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+[Method: POST, Route: admin/update-setting-zoho]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:06:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:06:15 --> [Caused by] mysqli_sql_exception: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:06:44 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:45 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:45 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:06:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-26 08:06:53 --> mysqli_sql_exception: Unknown column 'key_value' in 'field list' in /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting...', 0)
+#1 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting...')
+#2 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting...')
+#3 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting...', Array, false)
+#4 /home/havellslighting/public_html/partner1.havellslighting.com/app/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/havellslighting/public_html/partner1.havellslighting.com/app/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata(Array)
+#6 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+#7 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner1.havellslighting.com/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner1.havellslighting.com/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-26 08:06:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+[Method: POST, Route: admin/update-setting-zoho]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:06:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-26 08:06:53 --> [Caused by] mysqli_sql_exception: Unknown column 'key_value' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `setting` SET `key_value` = \'1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH\'
+WHERE `key_name` = \'zoho_client_id\'')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `setting` SET `key_value` = :key_value:
+WHERE `key_name` = :key_name.1:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(721): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin_cntrl.php(3270): App\Models\Admin_mdl->updatesettingzohodata([...])
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:07:23 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-26 08:07:23 --> ErrorException: Undefined variable $updateSuccessful
+[Method: POST, Route: admin/update-setting-zoho]
+in APPPATH/Controllers/Admin_cntrl.php on line 3271.
+ 1 APPPATH/Controllers/Admin_cntrl.php(3271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $updateSuccessful', '/home/havellslighting/public_html/partner1.havellslighting.com/app/Controllers/Admin_cntrl.php', 3271)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdatesettingzoho()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:07:40 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:07:40 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:07:41 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:07:45 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:29 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:12:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:12:34 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:37 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:38 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:12:39 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:12:41 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:12:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:12:44 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:16:24 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:16:25 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:16:25 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:23:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:31 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:31 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:23:35 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:23:36 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:36 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:51 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:23:51 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:52 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:23:57 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:23:58 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:24:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:24:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:24:54 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:24:57 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:25:46 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:25:47 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:25:47 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:25:48 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:28 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:29 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:38 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:41 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:42 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:44 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:44 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:45 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:51 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:26:52 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:26:53 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:28:29 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:28:29 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:28:30 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:28:43 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:28:45 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:28:46 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:28:47 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:28:54 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:34:16 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:34:16 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:34:17 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:34:22 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:34:24 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-26 08:34:25 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:34:25 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-02-26 08:34:29 --> [DEPRECATED] Optional parameter $status declared before required parameter $log_type is implicitly treated as a required parameter in APPPATH/Helpers/log_helper.php on line 16.
+ 1 SYSTEMPATH/Common.php(641): include_once('/home/havellslighting/public_html/partner1.havellslighting.com/vendor/codeigniter4/framework/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(487): helper([...])
+ 3 SYSTEMPATH/Boot.php(249): CodeIgniter\Autoloader\Autoloader->loadHelpers()
+ 4 SYSTEMPATH/Boot.php(64): CodeIgniter\Boot::autoloadHelpers()
+ 5 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-26 08:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

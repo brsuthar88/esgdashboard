@@ -1,0 +1,486 @@
+<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VSME Dashboard - ESG Reporting Platform</title>
+<!-- css -->
+  <?php echo view('admin/partials/admincss'); ?>
+<style type="text/css">
+</style>
+</head>
+<body>
+     <!-- Sidebar -->
+    <?php $dataview = ['admindata' => $admindata,];
+    echo view('admin/partials/adminsidebar', $dataview);
+    ?>
+  <div class="dashboard-main-body">
+    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
+      <h6 class="fw-semibold mb-0">Category</h6>
+      <ul class="d-flex align-items-center gap-2">
+        <li class="fw-medium"> <a href="/admin" class="d-flex align-items-center gap-1 hover-text-primary">
+          <iconify-icon icon="solar:home-smile-angle-outline" class="icon text-lg"></iconify-icon>
+          Dashboard </a> </li>
+        <li>-</li>
+        <li class="fw-medium">Customers</li>
+      </ul>
+    </div>
+	  <div class="row gy-4">
+      <div class="col-md-12">
+        <div class="card scrollclass">
+          <div class="card-header">
+            <h6 class="card-title mb-0">Add Category</h6>
+          </div>
+          <div class="card-body">
+            <form action="#">
+				<div class="row gy-3">
+                <div class="col-sm-6">
+                    <label for="name" class="form-label fw-semibold text-primary-light text-sm mb-8">Category Name <span class="text-danger-600">* (Same Name As Zoho)</span></label>
+                    <input type="text" class="form-control radius-8" id="cname" placeholder="Enter Category">
+                </div>
+                
+					 
+					<div class="col-sm-6">
+                    <label for="desig" class="form-label fw-semibold text-primary-light text-sm mb-8">Status <span class="text-danger-600">*</span> </label>
+                    <select class="form-control radius-8 form-select" id="desig">
+                        <option value="1">Active </option>
+                        <option value="0">Inactive </option>
+                    
+                    </select>
+                </div>
+                <div>
+                    <label for="desc" class="form-label fw-semibold text-primary-light text-sm mb-8">Description</label>
+                    <textarea name="#0" class="form-control radius-8" id="desc" placeholder="Write description..."></textarea>
+                </div>
+                
+				</div>
+            </form>
+          </div>
+			
+			<div class="card-footer">
+        <div class="d-flex flex-wrap align-items-center justify-content-end gap-2">
+			<a href="javascript:void(0)" onclick="submitdata()" class="btn btn-sm btn-info-600 radius-8 d-inline-flex align-items-center gap-1">
+            <iconify-icon icon="pepicons-pencil:floppy-disk" class="text-xl"></iconify-icon>
+            Save
+          </a>
+                
+          
+			<a href="/admin/list-categories" class="btn btn-sm btn-warning radius-8 d-inline-flex align-items-center gap-1">
+            <iconify-icon icon="pepicons-pencil:times-circle-filled" class="text-xl"></iconify-icon>
+           Reset
+          </a>
+        </div>
+      </div>
+        </div><!-- card end -->
+   
+      </div>
+		  <div class="col-lg-12">
+    <div class="card basic-data-table">
+      <div class="card-body">
+        <table class="table bordered-table mb-0" id="dataTable" data-page-length='10'>
+          <thead>
+            <tr>
+              <th scope="col"> # </th>
+              <th scope="col">Category</th>
+              <th scope="col" class="text-center">Status</th>
+              <th scope="col" class="text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+              <?php if (!empty($listcategories)): ?>
+                <?php 
+                $i=1;
+                foreach ($listcategories as $rowdata):
+                ?>
+            <tr class="countrow cate<?= $rowdata['customer_category_id'];?>">
+              <td class="numbercat<?= $rowdata['customer_category_id'];?>"><?= $i;?></td>
+              <td class="namecate<?= $rowdata['customer_category_id'];?>"><?= $rowdata['category_name'];?></td>
+             <td class="text-center statuscat<?= $rowdata['customer_category_id'];?>">
+                   <?php if($rowdata['status'] == 1){ ?>
+                  <span class="bg-success-focus text-success-600 border border-success-main px-24 py-4 radius-4 fw-medium text-sm">Active</span>
+                  <input type="hidden" value="Active" id="status<?= esc($rowdata['customer_category_id']); ?>">
+                  <?php  } else { ?>
+                  <span class="bg-neutral-200 text-neutral-600 border border-neutral-400 px-24 py-4 radius-4 fw-medium text-sm">Inactive</span>
+                  <input type="hidden" value="Inactive" id="status<?= esc($rowdata['customer_category_id']); ?>">
+                  <?php } ?>
+                </td>
+               <td class="actioncate<?= $rowdata['customer_category_id'];?>"><div class="d-flex align-items-center gap-10 justify-content-center"> 
+                  <a data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-info" data-bs-title="View" >
+                    <button type="button" class="bg-info-focus bg-hover-info-200 text-info-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="modal" data-bs-target="#viewcatechangeModal"  data-value="<?= esc($rowdata['customer_category_id']); ?>"  >
+                    <iconify-icon icon="majesticons:eye-line" class="icon text-xl"></iconify-icon>
+                    </button>
+                    </a>
+                  
+                  <a data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-success" data-bs-title="Edit" >
+                    <button type="button" class="bg-success-focus bg-hover-success-200 text-success-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="modal" data-bs-target="#editchangeModal" data-value="<?= esc($rowdata['customer_category_id']); ?>"  >
+                    <iconify-icon icon="lucide:edit" class="menu-icon"></iconify-icon>
+                    </button>
+                    </a>
+                    
+                  <a  onclick="deletecate(<?= esc($rowdata['customer_category_id']); ?>)" class="remove-item-btn bg-danger-focus bg-hover-danger-200 text-danger-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-danger" data-bs-title="Delete">
+                  <iconify-icon icon="fluent:delete-24-regular" class="menu-icon"></iconify-icon>
+                  </a>
+                </div>
+                <input type="hidden" value="<?= $rowdata['category_name'];?>" id="name<?= esc($rowdata['customer_category_id']); ?>">
+                <input type="hidden" value="<?=$rowdata['desc'];?>" id="deccription<?= esc($rowdata['customer_category_id']); ?>">
+                 <input type="hidden" value="<?= esc($rowdata['status']); ?>" id="status1<?= esc($rowdata['customer_category_id']); ?>">
+                </td>
+            </tr>
+            <?php $i++;
+            endforeach; ?>
+            <?php else: ?>
+                <tr>
+                    <td colspan="6" class="text-center">No Customer Found.</td>
+                </tr>
+            <?php endif; ?> 
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+		    </div>
+<div class="modal fade" id="viewcatechangeModal" tabindex="-1" aria-labelledby="catechangeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog modal-dialog-centered">
+    <div class="modal-content radius-16 bg-base">
+      <div class="modal-header py-16 px-24 border border-top-0 border-start-0 border-end-0">
+        <h1 class="modal-title fs-5" id="statuschangeModalLabel">Categories Detail</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-24">
+          <div class="row" id="catedata">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button data-bs-dismiss="modal" class="border border-danger-600 bg-hover-danger-200 text-danger-600 text-sm px-40 py-11 radius-8"> Close </button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="editchangeModal" tabindex="-1" aria-labelledby="editchangeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog modal-dialog-centered">
+    <div class="modal-content radius-16 bg-base">
+      <div class="modal-header py-16 px-24 border border-top-0 border-start-0 border-end-0">
+        <h1 class="modal-title fs-5" id="statuschangeModalLabel">Edit Categorie</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-24">
+          <div class="row">
+                 <form action="#">
+				<div class="row gy-3">
+                <div class="col-sm-6">
+                    <label for="name" class="form-label fw-semibold text-primary-light text-sm mb-8">Category Name <span class="text-danger-600">* (Same Name As Zoho)</span></label>
+                    <input type="text" class="form-control radius-8" id="cname1" placeholder="Enter Category">
+                </div>
+                
+					 
+					<div class="col-sm-6">
+                    <label for="desig" class="form-label fw-semibold text-primary-light text-sm mb-8">Status <span class="text-danger-600">*</span> </label>
+                    <select class="form-control radius-8 form-select" id="desig1">
+                        <option value="1">Active </option>
+                        <option value="0">Inactive </option>
+                    
+                    </select>
+                </div>
+                <div>
+                    <label for="desc1" class="form-label fw-semibold text-primary-light text-sm mb-8">Description</label>
+                    <textarea name="#0" class="form-control radius-8" id="desc1" placeholder="Write description..."></textarea>
+                </div>
+                
+				</div>
+            </form>
+          <input type="hidden" id="modalValue">
+      </div>
+      <div class="modal-footer">
+        <button data-bs-dismiss="modal" class="border border-danger-600 bg-hover-danger-200 text-danger-600 text-sm px-40 py-11 radius-8"> Close </button>
+        <button type="button" onclick="changecate()" class="btn btn-primary text-sm px-24 py-12 radius-8"> Update Categories </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- footer -->
+  <?php echo view('admin/partials/adminfooter'); ?>
+
+  <!-- JS -->
+  <?php echo view('admin/partials/adminjs'); ?>
+<script>
+ $(document).ready(function () {
+    $('#dataTable').DataTable({
+        createdRow: function (row, data, dataIndex) {
+            $(row).find('[data-toggle="tooltip"]').tooltip();
+        }
+    });
+});
+</script> 
+<script>
+    // Add event listener for when the modal is shown
+document.getElementById('editchangeModal').addEventListener('show.bs.modal', function (event) {
+    // Button that triggered the modal
+    var button = event.relatedTarget;
+    
+    // Extract value from data-* attribute
+    var value = button.getAttribute('data-value');
+    $('#cname1').val($("#name"+value).val());
+    $('#desc1').val($("#deccription"+value).val());
+    var Statusname = $('#status1'+value).val();
+    $('#desig1').val(Statusname).trigger('change');
+    var modalValue = document.getElementById('modalValue');
+    modalValue.value=value;
+});
+
+</script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]'); 
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)); 
+
+    // Boxed Tooltip
+    $(document).ready(function() {
+        $('.tooltip-button').each(function () {
+            var tooltipButton = $(this);
+            var tooltipContent = $(this).siblings('.my-tooltip').html(); 
+    
+            // Initialize the tooltip
+            tooltipButton.tooltip({
+                title: tooltipContent,
+                trigger: 'hover',
+                html: true
+            });
+    
+            // Optionally, reinitialize the tooltip if the content might change dynamically
+            tooltipButton.on('mouseenter', function() {
+                tooltipButton.tooltip('dispose').tooltip({
+                    title: tooltipContent,
+                    trigger: 'hover',
+                    html: true
+                }).tooltip('show');
+            });
+        });
+    });
+</script>
+<script>
+    function submitdata() {
+      
+        // Get form data
+        let formData = {
+            cname: $('#cname').val(),
+            desig: $('#desig').val(),
+            desc: $('#desc').val(),
+             <?= csrf_token() ?>: '<?= csrf_hash() ?>'
+        };
+    
+        // AJAX request
+        $.ajax({
+            url: '<?= base_url('/admin/save-categories') ?>',
+            type: 'POST',
+            data: formData,
+            dataType: 'json',
+            success: function(response) {
+                console.log(response);
+                // Display success or error message
+                if (response.status === 'success') {
+                     Swal.fire({
+                      title: "Success",
+                      text: response.message,
+                      icon: "success",
+                      timer: 2000,
+                      allowOutsideClick: false,
+                       willClose: () => {
+                          var count = $('#dataTable tbody .countrow').length;
+                        count=count+1; 
+                        var newRow ='<tr class="countrow cate'+response.id+'"><td class="numbercat'+response.id+' dt-type-numeric sorting_1">'+count+'</td><td>'+formData.cname+'</td><td class="text-center">';
+                        if(formData.desig == 1){
+                             newRow +='<span class="bg-success-focus text-success-600 border border-success-main px-24 py-4 radius-4 fw-medium text-sm">Active</span><input type="hidden" value="Active" id="status'+response.id+'">';
+                        } else { 
+                           newRow +='<span class="bg-neutral-200 text-neutral-600 border border-neutral-400 px-24 py-4 radius-4 fw-medium text-sm">Inactive</span><input type="hidden" value="Inactive" id="status'+response.id+'">';
+                        }
+                         newRow +='</td><td><div class="d-flex align-items-center gap-10 justify-content-center"> <a data-bs-toggle="modal" data-bs-target="#viewcatechangeModal"  data-value="'+response.id+'"  type="button" class="bg-info-focus bg-hover-info-200 text-info-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-info" data-bs-title="View"><iconify-icon icon="majesticons:eye-line" class="icon text-xl"></iconify-icon></a><a  data-bs-toggle="modal" data-bs-target="#editchangeModal"  data-value="'+response.id+'"  class="bg-success-focus text-success-600 bg-hover-success-200 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-success" data-bs-title="Edit"><iconify-icon icon="lucide:edit" class="menu-icon"></iconify-icon></a><button type="button" onclick="deletecate('+response.id+')" class="remove-item-btn bg-danger-focus bg-hover-danger-200 text-danger-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-danger" data-bs-title="Delete"><iconify-icon icon="fluent:delete-24-regular" class="menu-icon"></iconify-icon></button></div><input type="hidden" value="'+formData.cname+'" id="name'+response.id+'"><input type="hidden" value="'+formData.desc+'" id="deccription'+response.id+'"><input type="hidden" value="'+formData.desig+'" id="status1'+response.id+'"></td></tr>';
+                        $('#dataTable tbody').append(newRow); // Append the row directly to the table body
+                        $('#cname').val('');
+                        $('#desc').val('');
+                      },
+                    });
+                    
+                } else {
+                     Swal.fire({
+                          icon: "error",
+                          title: "Oops...",
+                          text: response.message,
+                           timer: 2000,
+                        });
+                }
+            },
+            error: function() {
+                 Swal.fire({
+                          icon: "error",
+                          title: "Oops...",
+                          text:"Error occurred while submitting the form.",
+                           timer: 2000,
+                        });
+            }
+        });
+           
+    }
+</script>
+<script>
+    // Add event listener for when the modal is shown
+document.getElementById('viewcatechangeModal').addEventListener('show.bs.modal', function (event) {
+    // Button that triggered the modal
+    var button = event.relatedTarget;
+    
+    // Extract value from data-* attribute
+    var value = button.getAttribute('data-value');
+    var name=$('#name'+value).val();
+    var status=$('#status'+value).val();
+    var deccription=$('#deccription'+value).val();
+    var htmls='<div class="row"><form action="#"><div class="row gy-3"><div class="col-sm-6"><label for="b12" class="form-label fw-semibold text-primary-light text-sm mb-8">Category Name <span class="text-danger-600">* (Same Name As Zoho)</span></label><input type="text" class="form-control radius-8" id="b12" value="'+name+'" disabled></div><div class="col-sm-6"><label for="b21" class="form-label fw-semibold text-primary-light text-sm mb-8">Status </label><input type="text" class="form-control radius-8" id="b21" value="'+status+'" disabled></div><div> <label for="b22" class="form-label fw-semibold text-primary-light text-sm mb-8">Description</label><textarea name="#0" class="form-control radius-8" id="b22" disabled>'+deccription+'</textarea></div></div></form> <input type="hidden" id="modalValue"></div>';
+    document.getElementById('catedata').innerHTML=htmls;
+});
+
+</script>
+<script>
+    function changecate() {
+    // Get form data
+    let formData = {
+        cname1: $('#cname1').val(),
+        desig1: $('#desig1').val(),
+        desc1: $('#desc1').val(),
+        modalValue: $('#modalValue').val(),
+        <?= csrf_token() ?>: '<?= csrf_hash() ?>'
+    };
+
+    // AJAX request
+    $.ajax({
+        url: '<?= base_url('/admin/edit-categories') ?>',
+        type: 'POST',
+        data: formData,
+        dataType: 'json',
+        success: function(response) {
+         
+
+            // Display success or error message
+            if (response.status === 'success') {
+                 Swal.fire({
+                      title: "Success",
+                      text: response.message,
+                      icon: "success",
+                      timer: 2000,
+                    });
+
+                // Update category name
+                $('.namecate' + formData.modalValue).html(formData.cname1);
+
+                // Handle status update
+                var newRow = '';
+                if (formData.desig1 == 1) {
+                    newRow = '<span class="bg-success-focus text-success-600 border border-success-main px-24 py-4 radius-4 fw-medium text-sm">Active</span><input type="hidden" value="Active" id="status' + formData.modalValue + '">';
+                } else {
+                    newRow = '<span class="bg-neutral-200 text-neutral-600 border border-neutral-400 px-24 py-4 radius-4 fw-medium text-sm">Inactive</span><input type="hidden" value="Inactive" id="status' + formData.modalValue + '">';
+                }
+                $('.statuscat' + formData.modalValue).html(newRow);
+
+                // Update the action buttons and hidden inputs for this category
+                var newRow1 = '<div class="d-flex align-items-center gap-10 justify-content-center">' +
+                    '<a data-bs-toggle="modal" data-bs-target="#viewcatechangeModal" data-value="' + formData.modalValue + '" type="button" ' +
+                    'class="bg-info-focus bg-hover-info-200 text-info-600 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" ' +
+                    'data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-info" data-bs-title="View">' +
+                    '<iconify-icon icon="majesticons:eye-line" class="icon text-xl"></iconify-icon></a>' +
+                    '<a data-bs-toggle="modal" data-bs-target="#editchangeModal" data-value="' + formData.modalValue + '" ' +
+                    'class="bg-success-focus text-success-600 bg-hover-success-200 fw-medium w-40-px h-40-px d-flex justify-content-center align-items-center rounded-circle" ' +
+                    'data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="tooltip-success" data-bs-title="Edit">' +
+                    '<iconify-icon icon="lucide:edit" class="menu-icon"></iconify-icon></a>' +
+                    '<button type="button" onclick="deletecate('+formData.modalValue+')" class="remove-item-btn bg-danger-focus bg-hover-danger-200 text-danger-600 fw-medium w-40-px h-40-px ' +
+                    'd-flex justify-content-center align-items-center rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" ' +
+                    'data-bs-custom-class="tooltip-danger" data-bs-title="Delete"><iconify-icon icon="fluent:delete-24-regular" class="menu-icon"></iconify-icon></button>' +
+                    '</div><input type="hidden" value="' + formData.cname1 + '" id="name' + formData.modalValue + '">' +
+                    '<input type="hidden" value="' + formData.desc1 + '" id="deccription' + formData.modalValue + '">' +
+                    '<input type="hidden" value="' + formData.desig1 + '" id="status1' + formData.modalValue + '">';
+
+                $('.actioncate' + formData.modalValue).html(newRow1);
+
+                // Hide modal after success
+                $('#editchangeModal').modal('hide');
+
+            } else {
+                Swal.fire({
+                                      icon: "error",
+                                      title: "Oops...",
+                                      text: response.message,
+                                       timer: 2000,
+                                    });
+            }
+        },
+        error: function() {
+            Swal.fire({
+                                      icon: "error",
+                                      title: "Oops...",
+                                      text:"Error occurred while submitting the form.",
+                                       timer: 2000,
+                                    });
+        }
+    });
+
+
+}
+
+</script>
+<script>
+    function deletecate(cateID) {
+       
+    
+    Swal.fire({
+                  title: "Are you sure?",
+                  text: "Delete this category ?",
+                  icon: "warning",
+                  showCancelButton: true,
+                  confirmButtonColor: "#2563EB",
+                  cancelButtonColor: "#da251d",
+                  confirmButtonText: "Yes, delete it!"
+                }).then((result) => {
+                    if (result.isConfirmed) 
+                    {
+                        $.ajax({
+                            url: '<?= base_url('/admin/delete-categories') ?>',
+                            type: 'POST',
+                            data: {
+                                "cateID": cateID,
+                                <?= csrf_token() ?>: '<?= csrf_hash() ?>'
+                            },
+                            success: function(response) {
+                             if (response.status === 'success') {
+                                Swal.fire({
+                                  title: "Success",
+                                  text: response.message,
+                                  icon: "success",
+                                  timer: 2000,
+                                  allowOutsideClick: false,
+                                   willClose: () => {
+                                       $('.cate'+cateID).remove();
+                                  },
+                                });
+                                
+                            } else {
+                              Swal.fire({
+                                      icon: "error",
+                                      title: "Oops...",
+                                      text: response.message,
+                                       timer: 2000,
+                                    });
+                            }
+                        },
+                        error: function() {
+                           Swal.fire({
+                                      icon: "error",
+                                      title: "Oops...",
+                                      text:"Error occurred while submitting the form.",
+                                       timer: 2000,
+                                    });
+                        }
+                    
+                });
+                    }
+                });
+    }
+</script>
+</body>
+</html>

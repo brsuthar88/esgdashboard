@@ -1,0 +1,10 @@
+CRITICAL - 2025-01-08 10:56:42 --> ErrorException: Undefined array key "quotation_number"
+[Method: GET, Route: admin/generate-pdf/1]
+in APPPATH/Controllers/Admin_cntrl.php on line 274.
+ 1 APPPATH/Controllers/Admin_cntrl.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "quotation_number"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 274)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->generate_pdf('1')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

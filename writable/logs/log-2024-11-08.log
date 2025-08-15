@@ -1,0 +1,652 @@
+INFO - 2024-11-08 05:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 05:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 05:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 05:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 05:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 06:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:20:05 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 260.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:21:30 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 260.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:21:39 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 260.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:23:37 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 261.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:28:57 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 261.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-08 06:30:07 --> ErrorException: Undefined property: CodeIgniter\Autoloader\Autoloader::$load
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 6.
+ 1 APPPATH/Controllers/Customer_cntrl.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Autoloader\\Autoloader::$load', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 6)
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Customer_cntrl')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Customer_cntrl')
+ 6 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Customer_cntrl', true)
+ 7 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:31:07 --> ErrorException: Undefined property: App\Controllers\Customer_cntrl::$load
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 13.
+ 1 APPPATH/Controllers/Customer_cntrl.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Customer_cntrl::$load', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Customer_cntrl->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:31:55 --> ErrorException: Undefined property: App\Controllers\Customer_cntrl::$load
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 13.
+ 1 APPPATH/Controllers/Customer_cntrl.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Customer_cntrl::$load', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Customer_cntrl->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-08 06:42:03 --> ErrorException: Undefined property: App\Controllers\Customer_cntrl::$load
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 12.
+ 1 APPPATH/Controllers/Customer_cntrl.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Customer_cntrl::$load', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 12)
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Customer_cntrl->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:43:10 --> Error: Call to undefined function App\Controllers\zoho_authenticate()
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 265.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 06:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:53:43 --> ErrorException: Undefined array key "zoho_client_id"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 258.
+ 1 APPPATH/Controllers/Customer_cntrl.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "zoho_client_id"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 258)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:54:20 --> ErrorException: Undefined array key "zoho_client_id"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 258.
+ 1 APPPATH/Controllers/Customer_cntrl.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "zoho_client_id"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 258)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 06:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:56:35 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(18): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(275): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 06:57:28 --> ErrorException: Undefined array key "key_name"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 261.
+ 1 APPPATH/Controllers/Customer_cntrl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key_name"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 261)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 06:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:03:36 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 401 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 401 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/crm/v2/859918730')
+ 4 APPPATH/Helpers/zoho_helper.php(37): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/crm/v2/859918730', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(287): zoho_get_records('1000.a4b7b4527a659510545bd04ad9724f51.cf2855c27f7a7066e7fb48cff7188a93', '859918730')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:32:46 --> ErrorException: Undefined variable $accessToken
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 304.
+ 1 APPPATH/Controllers/Customer_cntrl.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accessToken', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 304)
+ 2 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:33:42 --> ErrorException: Undefined variable $accessToken
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 304.
+ 1 APPPATH/Controllers/Customer_cntrl.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accessToken', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 304)
+ 2 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:33:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323&filter_by=Status.Active')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323&filter_by=Status.Active', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(304): zoho_get_records('1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323', '1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323', '1000.a44ca3739bf9645d8e1f37ae5e264e75.7132bd9e20daf00557c995a7d14d5323')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:34:43 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(304): zoho_get_records('1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab', '1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab', '1000.1aa2281d6ab45370d43794def09e9d07.61911158b40e93e917ac8d20ac23c7ab')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:35:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(304): zoho_get_records('1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a', '1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a', '1000.72cf5db4209a6b548423299a34293375.3d896603ea1bf5e667b44f2327d06a3a', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:37:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(307): zoho_get_records('1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9', '1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9', '1000.a3ed67d136f1089a647178ea48cc2213.db7f439fb76a04e996cfe9ea487950c9', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:38:54 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(308): zoho_get_records('1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe', '1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe', '1000.8aa227e973f6d84d13b142699fb82858.4d74b915142581c63baf0141164e0ffe', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:39:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(308): zoho_get_records('1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985', '1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985', '1000.e9ad78db3461325a54c4d177c8e90410.d3ab6c12bac54b4a912bc84d9339d985', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:40:17 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(308): zoho_get_records('1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235', '1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235', '1000.1da31d03c3f2a8ab8038bfa7c517f2bf.60270b4dbfe4afe2f7c4d251efe90235', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 07:40:36 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(38): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/books/v3/items?organization_id=1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(308): zoho_get_records('1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5', '1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5', 1)
+ 6 APPPATH/Controllers/Customer_cntrl.php(285): App\Controllers\Customer_cntrl->loop_self('1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5', '1000.6f369b27fa5484b3561381e98fa3be11.cb7bfdc07c758c94d88f4ebb06070fe5', 1)
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 07:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:02:45 --> ErrorException: Undefined variable $page
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 286.
+ 1 APPPATH/Controllers/Customer_cntrl.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 286)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:06:32 --> ErrorException: Undefined variable $pages
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 287.
+ 1 APPPATH/Controllers/Customer_cntrl.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 287)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:28:10 --> ErrorException: Undefined array key "items"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 287.
+ 1 APPPATH/Controllers/Customer_cntrl.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "items"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 287)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:28:31 --> Error: Cannot use [] for reading
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 287.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:28:57 --> Error: Cannot use [] for reading
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 289.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:29:23 --> ErrorException: Undefined array key "first_name"
+[Method: GET, Route: add-quotation]
+in APPPATH/Views/partials/Customersidebar.php on line 63.
+ 1 APPPATH/Views/partials/Customersidebar.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', '/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php', 63)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Customersidebar', [], true)
+ 5 APPPATH/Views/add-quotation.php(38): view('partials/Customersidebar', [...])
+ 6 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/add-quotation.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('add-quotation', [], true)
+ 9 APPPATH/Controllers/Customer_cntrl.php(296): view('add-quotation', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:29:47 --> ErrorException: Undefined array key "first_name"
+[Method: GET, Route: add-quotation]
+in APPPATH/Views/partials/Customersidebar.php on line 63.
+ 1 APPPATH/Views/partials/Customersidebar.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', '/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php', 63)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/partials/Customersidebar.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Customersidebar', [], true)
+ 5 APPPATH/Views/add-quotation.php(38): view('partials/Customersidebar', [...])
+ 6 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/add-quotation.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('add-quotation', [], true)
+ 9 APPPATH/Controllers/Customer_cntrl.php(296): view('add-quotation', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:30:52 --> ErrorException: Undefined array key "items"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 289.
+ 1 APPPATH/Controllers/Customer_cntrl.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "items"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 289)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:31:05 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 289.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:31:21 --> ErrorException: Uninitialized string offset 1
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 289.
+ 1 APPPATH/Controllers/Customer_cntrl.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 1', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 289)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:34:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 312.
+ 1 APPPATH/Controllers/Customer_cntrl.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 312)
+ 2 APPPATH/Controllers/Customer_cntrl.php(312): App\Controllers\Customer_cntrl->loop_self('1000.0734bbf4721de65626c6d9c13eb12c75.d4694a2dba403e94840da1c9fe46c539', '859918730', 2)
+ 3 APPPATH/Controllers/Customer_cntrl.php(286): App\Controllers\Customer_cntrl->loop_self('1000.0734bbf4721de65626c6d9c13eb12c75.d4694a2dba403e94840da1c9fe46c539', '859918730', 1)
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:35:02 --> ErrorException: Array to string conversion
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 312.
+ 1 APPPATH/Controllers/Customer_cntrl.php(312): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 312)
+ 2 APPPATH/Controllers/Customer_cntrl.php(312): App\Controllers\Customer_cntrl->loop_self('1000.05129a7a207a13384e12cdc32cda1408.acfb30ff86a79c018f752ffe15a47336', '859918730', 2)
+ 3 APPPATH/Controllers/Customer_cntrl.php(286): App\Controllers\Customer_cntrl->loop_self('1000.05129a7a207a13384e12cdc32cda1408.acfb30ff86a79c018f752ffe15a47336', '859918730', 1)
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 08:42:41 --> ErrorException: Undefined variable $newdata
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 314.
+ 1 APPPATH/Controllers/Customer_cntrl.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newdata', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 314)
+ 2 APPPATH/Controllers/Customer_cntrl.php(311): App\Controllers\Customer_cntrl->loop_self('1000.272170ff62329c169c86fbc7d9d269e2.2b100cebb03f221c767d29a4bb23bfaa', '859918730', 3)
+ 3 APPPATH/Controllers/Customer_cntrl.php(311): App\Controllers\Customer_cntrl->loop_self('1000.272170ff62329c169c86fbc7d9d269e2.2b100cebb03f221c767d29a4bb23bfaa', '859918730', 2)
+ 4 APPPATH/Controllers/Customer_cntrl.php(286): App\Controllers\Customer_cntrl->loop_self('1000.272170ff62329c169c86fbc7d9d269e2.2b100cebb03f221c767d29a4bb23bfaa', '859918730', 1)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 08:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 08:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:02:05 --> Error: [] operator not supported for strings
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 287.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:02:27 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 290.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:03:13 --> ErrorException: Undefined array key "available_stock"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 295.
+ 1 APPPATH/Controllers/Customer_cntrl.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "available_stock"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 295)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:05:00 --> ErrorException: Undefined array key "available_stock"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 295.
+ 1 APPPATH/Controllers/Customer_cntrl.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "available_stock"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 295)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:16:47 --> ErrorException: Undefined array key "actual_available_stock"
+[Method: GET, Route: add-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 297.
+ 1 APPPATH/Controllers/Customer_cntrl.php(297): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "actual_available_stock"', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 297)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-08 09:19:56 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: add-quotation]
+in APPPATH/Views/add-quotation.php on line 61.
+ 1 APPPATH/Views/add-quotation.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', '/home/havellslighting/public_html/partner/app/Views/add-quotation.php', 61)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/add-quotation.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('add-quotation', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(313): view('add-quotation', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-08 09:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 09:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-08 10:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

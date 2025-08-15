@@ -1,0 +1,223 @@
+INFO - 2024-11-12 04:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 04:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 04:56:12 --> ErrorException: Undefined array key "accessToken"
+[Method: GET, Route: inventory]
+in APPPATH/Views/inventory.php on line 44.
+ 1 APPPATH/Views/inventory.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "accessToken"', '/home/havellslighting/public_html/partner/app/Views/inventory.php', 44)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 05:18:07 --> ErrorException: Undefined array key "accessToken"
+[Method: GET, Route: inventory]
+in APPPATH/Views/inventory.php on line 44.
+ 1 APPPATH/Views/inventory.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "accessToken"', '/home/havellslighting/public_html/partner/app/Views/inventory.php', 44)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 05:27:05 --> ErrorException: Undefined array key "accessToken"
+[Method: GET, Route: inventory]
+in APPPATH/Views/inventory.php on line 46.
+ 1 APPPATH/Views/inventory.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "accessToken"', '/home/havellslighting/public_html/partner/app/Views/inventory.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 05:32:17 --> ErrorException: Undefined array key "accessToken"
+[Method: GET, Route: inventory]
+in APPPATH/Views/inventory.php on line 44.
+ 1 APPPATH/Views/inventory.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "accessToken"', '/home/havellslighting/public_html/partner/app/Views/inventory.php', 44)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 5 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 05:35:02 --> ErrorException: Undefined array key "pricebook_rate"
+[Method: GET, Route: inventory]
+in APPPATH/Helpers/zoho_helper.php on line 168.
+ 1 APPPATH/Helpers/zoho_helper.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pricebook_rate"', '/home/havellslighting/public_html/partner/app/Helpers/zoho_helper.php', 168)
+ 2 APPPATH/Views/inventory.php(45): zoho_get_inventory_price_type('1000.55aedcca2c2800526f4546c68382d16e.3316a5fed0d6c78ceb32675886c731e0', '859918730', 'Distributor', '5475320000000346959')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 6 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 05:36:22 --> ErrorException: Undefined array key "pricebook_rate"
+[Method: GET, Route: inventory]
+in APPPATH/Helpers/zoho_helper.php on line 173.
+ 1 APPPATH/Helpers/zoho_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pricebook_rate"', '/home/havellslighting/public_html/partner/app/Helpers/zoho_helper.php', 173)
+ 2 APPPATH/Views/inventory.php(45): zoho_get_inventory_price_type('1000.6bd1f0ba63c9d16ba05a22f8437ddeee.2c6be9aaeb47fd3b22211c6d344c189d', '859918730', 'Distributor', '5475320000000346959')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/inventory.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('inventory', [], true)
+ 6 APPPATH/Controllers/Customer_cntrl.php(398): view('inventory', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 05:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 05:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 06:36:36 --> ErrorException: Undefined variable $itemid
+[Method: GET, Route: inventory]
+in APPPATH/Helpers/zoho_helper.php on line 169.
+ 1 APPPATH/Helpers/zoho_helper.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemid', '/home/havellslighting/public_html/partner/app/Helpers/zoho_helper.php', 169)
+ 2 APPPATH/Controllers/Customer_cntrl.php(375): zoho_get_inventory_price_type('1000.f316b2d9b250cd5a884f7bf12b4b49c9.ba9c9049a68da759fb526edc40965199', '859918730', 'Distributor', '5475320000000346959')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 06:44:30 --> ErrorException: Undefined variable $recordss
+[Method: GET, Route: inventory]
+in APPPATH/Controllers/Customer_cntrl.php on line 391.
+ 1 APPPATH/Controllers/Customer_cntrl.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recordss', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 391)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 06:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 06:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 06:49:43 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 429 
+[Method: GET, Route: inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 429 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/inventory/v1/pricebooks/5475320000000235283?organization_id=859918730')
+ 4 APPPATH/Helpers/zoho_helper.php(160): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/inventory/v1/pricebooks/5475320000000235283?organization_id=859918730', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(391): zoho_get_inventory_price_type('1000.b5085c3caf208733e56f4276708e1b0f.fe8839220fd498f025edf5b16c9fe9b5', '859918730', 'Distributor', '5475320000000136743')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 06:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 06:51:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 429 
+[Method: GET, Route: inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 429 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/inventory/v1/items?organization_id=859918730&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(259): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/inventory/v1/items?organization_id=859918730&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(368): zoho_get_records_inventory('1000.4a152e210065ed44758093698f1a53db.63de83001a89a8d0052924d9f14c0e34', '859918730', 'Distributor')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-12 08:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 08:44:09 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 429 
+[Method: GET, Route: inventory]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 429 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.zohoapis.com/inventory/v1/items?organization_id=859918730&filter_by=Status.Active&page=1')
+ 4 APPPATH/Helpers/zoho_helper.php(259): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.zohoapis.com/inventory/v1/items?organization_id=859918730&filter_by=Status.Active&page=1', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(368): zoho_get_records_inventory('1000.baa0da1a18f65cf35c7a309edf92b5c6.d0a07f66205ef561654002417a982b68', '859918730', 'Distributor')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

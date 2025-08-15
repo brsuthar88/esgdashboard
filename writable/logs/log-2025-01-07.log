@@ -1,0 +1,327 @@
+CRITICAL - 2025-01-07 05:47:07 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/view-quote/89]
+in APPPATH/Models/Admin_mdl.php on line 235.
+ 1 APPPATH/Models/Admin_mdl.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Models/Admin_mdl.php', 235)
+ 2 APPPATH/Controllers/Admin_cntrl.php(287): App\Models\Admin_mdl->getadminidquotation('89')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->viewquote('89')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 07:07:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(664): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:01:38 --> BadMethodCallException: Call to undefined method App\Models\Seller_mdl::update_quotation_number
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Models/Seller_mdl.php(319): CodeIgniter\Model->__call('update_quotation_number', [...])
+ 2 APPPATH/Controllers/Seller_cntrl.php(640): App\Models\Seller_mdl->insertquotation([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:01:46 --> BadMethodCallException: Call to undefined method App\Models\Seller_mdl::update_quotation_number
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Models/Seller_mdl.php(319): CodeIgniter\Model->__call('update_quotation_number', [...])
+ 2 APPPATH/Controllers/Seller_cntrl.php(640): App\Models\Seller_mdl->insertquotation([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:02:20 --> BadMethodCallException: Call to undefined method App\Models\Seller_mdl::update_quotation_number
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Models/Seller_mdl.php(319): CodeIgniter\Model->__call('update_quotation_number', [...])
+ 2 APPPATH/Controllers/Seller_cntrl.php(640): App\Models\Seller_mdl->insertquotation([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:03:52 --> BadMethodCallException: Call to undefined method App\Models\Seller_mdl::update_quotation_number
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Models/Seller_mdl.php(319): CodeIgniter\Model->__call('update_quotation_number', [...])
+ 2 APPPATH/Controllers/Seller_cntrl.php(640): App\Models\Seller_mdl->insertquotation([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:05:58 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: seller/get-customer]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(504): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->getcustomerdetailwithitem()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:06:04 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: seller/get-customer]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(504): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->getcustomerdetailwithitem()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:06:21 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: seller/get-customer]
+in SYSTEMPATH/HTTP/CURLRequest.php on line 694.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(504): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->getcustomerdetailwithitem()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 10:07:02 --> mysqli_sql_exception: Column 'quotation_id' cannot be null in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-07 10:07:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 2 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:07:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'1\', 1.49, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'1\', 1.49, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 4 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:07:02 --> [Caused by] mysqli_sql_exception: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'1\', 1.49, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'1\', 1.49, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'1\', 1.49, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 5 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 10:07:51 --> mysqli_sql_exception: Column 'quotation_id' cannot be null in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php(774): App\Models\Seller_mdl->insertquotatioitem(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavesendquotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-07 10:07:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+[Method: POST, Route: seller/save-send-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 2 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Seller_cntrl.php(774): App\Models\Seller_mdl->insertquotatioitem([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavesendquotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:07:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'6\', 8.94, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'6\', 8.94, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 4 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(774): App\Models\Seller_mdl->insertquotatioitem([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavesendquotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:07:51 --> [Caused by] mysqli_sql_exception: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'6\', 8.94, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'6\', 8.94, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000346959\', 1.49, \'6\', 8.94, \'12\\\'\\\' direct feed cable\', \'12\\" direct feed cable for rapid lamps\', \'for rapid lamps\', \'piece\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 5 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Seller_cntrl.php(774): App\Models\Seller_mdl->insertquotatioitem([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavesendquotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 10:08:36 --> mysqli_sql_exception: Column 'quotation_id' cannot be null in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-07 10:08:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 2 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:08:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000131316\', 14, \'1\', 14, \'A adaptor Black\', \'A adaptor for parking lot lights, black color\', \'A Adapter for Parking Lot Lights - Black Color\', \'piece\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000131316\', 14, \'1\', 14, \'A adaptor Black\', \'A adaptor for parking lot lights, black color\', \'A Adapter for Parking Lot Lights - Black Color\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 4 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:08:36 --> [Caused by] mysqli_sql_exception: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000131316\', 14, \'1\', 14, \'A adaptor Black\', \'A adaptor for parking lot lights, black color\', \'A Adapter for Parking Lot Lights - Black Color\', \'piece\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000131316\', 14, \'1\', 14, \'A adaptor Black\', \'A adaptor for parking lot lights, black color\', \'A Adapter for Parking Lot Lights - Black Color\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000000131316\', 14, \'1\', 14, \'A adaptor Black\', \'A adaptor for parking lot lights, black color\', \'A Adapter for Parking Lot Lights - Black Color\', \'piece\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 5 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-07 10:09:10 --> mysqli_sql_exception: Column 'quotation_id' cannot be null in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /home/havellslighting/public_html/partner/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem(Array)
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+#8 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-07 10:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+[Method: POST, Route: seller/save-quotation]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 2 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:09:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000002021041\', 99.81, \'1\', 99.81, \'3 RR in-Line Bullhorn-Black\', \'HV-RRI-03BZ-Black\', \'Bracket Bullhorn\', \'piece\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000002021041\', 99.81, \'1\', 99.81, \'3 RR in-Line Bullhorn-Black\', \'HV-RRI-03BZ-Black\', \'Bracket Bullhorn\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 4 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-07 10:09:10 --> [Caused by] mysqli_sql_exception: Column 'quotation_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000002021041\', 99.81, \'1\', 99.81, \'3 RR in-Line Bullhorn-Black\', \'HV-RRI-03BZ-Black\', \'Bracket Bullhorn\', \'piece\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000002021041\', 99.81, \'1\', 99.81, \'3 RR in-Line Bullhorn-Black\', \'HV-RRI-03BZ-Black\', \'Bracket Bullhorn\', \'piece\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (NULL, \'5475320000002021041\', 99.81, \'1\', 99.81, \'3 RR in-Line Bullhorn-Black\', \'HV-RRI-03BZ-Black\', \'Bracket Bullhorn\', \'piece\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quotation_item` (`quotation_id`, `item_id`, `amount`, `quantity`, `total`, `item_name`, `item_sku`, `item_description`, `item_unit`) VALUES (:quotation_id:, :item_id:, :amount:, :quantity:, :total:, :item_name:, :item_sku:, :item_description:, :item_unit:)', [...], false)
+ 5 APPPATH/Models/Seller_mdl.php(332): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Seller_cntrl.php(655): App\Models\Seller_mdl->insertquotatioitem([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->sellersavequotation()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

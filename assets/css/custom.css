@@ -1,0 +1,106 @@
+.sidebar-menu-area li {
+    margin-top: 5px;
+}
+
+
+.bg-purple-focus {
+    background-color: var(--purple-light) !important;
+}
+
+.text-purple-focus {
+  color: var(--purple);
+}
+
+.bg-hover-purple-focus {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bg-hover-purple-focus:hover {
+  background-color: var(--lilac-600) !important;
+}
+
+.bg-hover-purple-200 {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bg-hover-purple-200:hover {
+  background-color: var(--lilac-100) !important;
+}
+
+.text-purple-600 {
+  color: var(--lilac-600) !important;
+	
+}
+
+
+.bg-pink-focus {
+    background-color: #f5d2f1 !important;
+}
+
+.text-pink-focus {
+  color: #f5d2f1;
+}
+
+.bg-hover-pink-focus {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bg-hover-pink-focus:hover {
+  background-color: #f5d2f1 !important;
+}
+
+.bg-hover-pink-200 {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bg-hover-pink-200:hover {
+  background-color: #f1bbeb  !important;
+}
+
+.text-pink-600 {
+  color: #ed54da !important;
+	
+}
+
+.tooltip-pink {
+  --bs-tooltip-bg: #ed54da;
+}
+
+table iconify-icon.menu-icon {
+    font-size: 18px !important;
+}
+
+table iconify-icon.menu-icon.pdf {
+    font-size: 30px !important;
+}
+
+.bg-1 {
+       background: #00b8f2;
+}
+
+
+.bg-2 {
+    background: #8252e9;
+}
+.bg-4 {
+    background: #45b369;
+}
+.bg-3 {
+    background: #0dcaf0;
+}
+.bg-5 {
+    background: #e30a0a;
+}
+
+html[data-theme=dark] .bg-1,html[data-theme=dark] .bg-2,html[data-theme=dark] .bg-3,html[data-theme=dark] .bg-4,html[data-theme=dark] .bg-5 {
+    background: linear-gradient(to right, rgba(230, 249, 255, 0.15), rgba(254, 255, 255, 0.1));
+}
+

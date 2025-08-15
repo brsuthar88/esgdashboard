@@ -1,0 +1,178 @@
+CRITICAL - 2025-01-22 04:47:47 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 869.
+ 1 APPPATH/Controllers/Admin_cntrl.php(869): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 869)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 04:51:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Quote#HLLQB-000098.pdf"
+[Method: GET, Route: assets/invoicesavedownload/Quote%23HLLQB-000098.pdf]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/invoicesavedownload/Quote#HLLQB-000098.pdf')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/invoicesavedownload/Quote#HLLQB-000098.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 04:52:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Quote#HLLQB-000099.pdf"
+[Method: GET, Route: assets/invoicesavedownload/Quote%23HLLQB-000099.pdf]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/invoicesavedownload/Quote#HLLQB-000099.pdf')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/invoicesavedownload/Quote#HLLQB-000099.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 04:54:14 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Quote#HLLQB-000100.pdf"
+[Method: GET, Route: assets/invoicesavedownload/Quote%23HLLQB-000100.pdf]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/invoicesavedownload/Quote#HLLQB-000100.pdf')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/invoicesavedownload/Quote#HLLQB-000100.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 04:56:02 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: admin/save-download-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 869.
+ 1 APPPATH/Controllers/Admin_cntrl.php(869): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 869)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavedownquotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 05:01:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Quote#HLLQB-000100.pdf"
+[Method: GET, Route: assets/invoicesavedownload/Quote%23HLLQB-000100.pdf]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/invoicesavedownload/Quote#HLLQB-000100.pdf')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/invoicesavedownload/Quote#HLLQB-000100.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 05:34:36 --> ErrorException: Cannot redeclare App\Models\Customer_mdl::getcustomeridquotation()
+[Method: GET, Route: /]
+in APPPATH/Models/Customer_mdl.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-22 05:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 05:36:14 --> ErrorException: Cannot redeclare App\Models\Customer_mdl::getcustomeridquotation()
+[Method: GET, Route: /]
+in APPPATH/Models/Customer_mdl.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-22 05:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 05:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 06:38:00 --> BadMethodCallException: Call to undefined method App\Models\Admin_mdl::checkselleravaialble
+[Method: POST, Route: admin/update-person]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Controllers/Admin_cntrl.php(1726): CodeIgniter\Model->__call('checkselleravaialble', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdateperson()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 06:38:08 --> BadMethodCallException: Call to undefined method App\Models\Admin_mdl::checkselleravaialble
+[Method: POST, Route: admin/update-person]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Controllers/Admin_cntrl.php(1726): CodeIgniter\Model->__call('checkselleravaialble', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdateperson()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 06:38:14 --> BadMethodCallException: Call to undefined method App\Models\Admin_mdl::checkselleravaialble
+[Method: POST, Route: admin/update-person]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Controllers/Admin_cntrl.php(1726): CodeIgniter\Model->__call('checkselleravaialble', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdateperson()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 06:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 06:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 06:39:09 --> BadMethodCallException: Call to undefined method App\Models\Admin_mdl::checkselleravaialble
+[Method: POST, Route: admin/update-person]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Controllers/Admin_cntrl.php(1726): CodeIgniter\Model->__call('checkselleravaialble', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminupdateperson()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 06:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 06:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 06:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 06:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 10:10:41 --> ErrorException: Undefined array key 0
+[Method: GET, Route: seller/view-quote/4]
+in APPPATH/Models/Seller_mdl.php on line 258.
+ 1 APPPATH/Models/Seller_mdl.php(258): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 258)
+ 2 APPPATH/Controllers/Seller_cntrl.php(225): App\Models\Seller_mdl->getSelleridquotation([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewquote('4')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 10:16:46 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: seller/change-status]
+in APPPATH/Models/Seller_mdl.php on line 275.
+ 1 APPPATH/Models/Seller_mdl.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 275)
+ 2 APPPATH/Controllers/Seller_cntrl.php(432): App\Models\Seller_mdl->updatestatus([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->savestatusquotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 10:17:13 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: seller/change-status]
+in APPPATH/Models/Seller_mdl.php on line 275.
+ 1 APPPATH/Models/Seller_mdl.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 275)
+ 2 APPPATH/Controllers/Seller_cntrl.php(432): App\Models\Seller_mdl->updatestatus([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->savestatusquotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 10:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 10:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 10:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 10:17:43 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: seller/change-status]
+in APPPATH/Models/Seller_mdl.php on line 275.
+ 1 APPPATH/Models/Seller_mdl.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 275)
+ 2 APPPATH/Controllers/Seller_cntrl.php(432): App\Models\Seller_mdl->updatestatus([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->savestatusquotation()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 10:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 10:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 10:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 10:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

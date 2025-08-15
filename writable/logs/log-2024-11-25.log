@@ -1,0 +1,574 @@
+INFO - 2024-11-25 01:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 01:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 01:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 01:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 04:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 09:13:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/Sellersidebar.php"
+[Method: GET, Route: Seller]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/Sellersidebar.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('partials/Sellersidebar', [], true)
+ 3 APPPATH/Views/salesperson/dashboard.php(16): view('partials/Sellersidebar', [...])
+ 4 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/dashboard.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/dashboard', [], true)
+ 7 APPPATH/Controllers/Seller_cntrl.php(61): view('/salesperson/dashboard', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 09:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 09:30:01 --> ErrorException: Undefined variable $customerdata
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Views/salesperson/view-profile.php on line 15.
+ 1 APPPATH/Views/salesperson/view-profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php', 15)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-profile', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(140): view('/salesperson/view-profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 09:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 09:30:55 --> ErrorException: Undefined variable $customerdata
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Views/salesperson/view-profile.php on line 32.
+ 1 APPPATH/Views/salesperson/view-profile.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php', 32)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-profile', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(140): view('/salesperson/view-profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 09:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 09:31:29 --> ErrorException: Undefined variable $customerdata
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Views/salesperson/view-profile.php on line 44.
+ 1 APPPATH/Views/salesperson/view-profile.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerdata', '/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php', 44)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/view-profile.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/view-profile', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(140): view('/salesperson/view-profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 09:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 09:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:05:53 --> ErrorException: Undefined variable $db
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 52.
+ 1 APPPATH/Models/Seller_mdl.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 52)
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:09:26 --> ErrorException: Undefined array key "month_name"
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 84.
+ 1 APPPATH/Models/Seller_mdl.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month_name"', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 84)
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:09:55 --> ErrorException: Undefined array key "month_name"
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 84.
+ 1 APPPATH/Models/Seller_mdl.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month_name"', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 84)
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:12:34 --> ErrorException: Array to string conversion
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 82.
+ 1 APPPATH/Models/Seller_mdl.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 82)
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:13:48 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 80.
+ 1 APPPATH/Models/Seller_mdl.php(80): json_decode([...])
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:14:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: Seller/view-profile]
+in APPPATH/Models/Seller_mdl.php on line 78.
+ 1 APPPATH/Models/Seller_mdl.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 78)
+ 2 APPPATH/Controllers/Seller_cntrl.php(140): App\Models\Seller_mdl->getgraphdata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->viewprofile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:20:05 --> ErrorException: Undefined variable $getGraph
+[Method: GET, Route: Seller]
+in APPPATH/Views/salesperson/dashboard.php on line 17.
+ 1 APPPATH/Views/salesperson/dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getGraph', '/home/havellslighting/public_html/partner/app/Views/salesperson/dashboard.php', 17)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/havellslighting/public_html/partner/app/Views/salesperson/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/dashboard', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(62): view('/salesperson/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:44:58 --> ErrorException: Undefined variable $customer_id
+[Method: POST, Route: login]
+in APPPATH/Controllers/Customer_cntrl.php on line 103.
+ 1 APPPATH/Controllers/Customer_cntrl.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_id', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:45:06 --> ErrorException: Undefined variable $customer_id
+[Method: POST, Route: login]
+in APPPATH/Controllers/Customer_cntrl.php on line 103.
+ 1 APPPATH/Controllers/Customer_cntrl.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_id', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:45:23 --> ErrorException: Undefined variable $customer_id
+[Method: POST, Route: login]
+in APPPATH/Controllers/Customer_cntrl.php on line 103.
+ 1 APPPATH/Controllers/Customer_cntrl.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_id', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 103)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:45:50 --> ErrorException: Undefined variable $customer_id
+[Method: POST, Route: login]
+in APPPATH/Controllers/Customer_cntrl.php on line 113.
+ 1 APPPATH/Controllers/Customer_cntrl.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_id', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 113)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Customer_cntrl->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:55:15 --> ArgumentCountError: Too few arguments to function App\Models\Seller_mdl::getDailyLogin(), 0 passed in /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php on line 59 and exactly 1 expected
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 33.
+ 1 APPPATH/Controllers/Seller_cntrl.php(59): App\Models\Seller_mdl->getDailyLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:55:53 --> ErrorException: Undefined variable $db
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 39.
+ 1 APPPATH/Models/Seller_mdl.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 39)
+ 2 APPPATH/Controllers/Seller_cntrl.php(59): App\Models\Seller_mdl->getDailyLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:56:09 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: Seller]
+in APPPATH/Views/salesperson/dashboard.php on line 161.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/dashboard', [], true)
+ 4 APPPATH/Controllers/Seller_cntrl.php(64): view('/salesperson/dashboard', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:56:38 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: Seller]
+in APPPATH/Views/salesperson/dashboard.php on line 161.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/dashboard', [], true)
+ 4 APPPATH/Controllers/Seller_cntrl.php(64): view('/salesperson/dashboard', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 10:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 10:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 10:59:43 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 45.
+ 1 APPPATH/Controllers/Seller_cntrl.php(59): App\Models\Seller_mdl->getDailyLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:00:00 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 45.
+ 1 APPPATH/Controllers/Seller_cntrl.php(59): App\Models\Seller_mdl->getDailyLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:00:44 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: Seller]
+in APPPATH/Controllers/Seller_cntrl.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:01:12 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: Seller]
+in APPPATH/Controllers/Seller_cntrl.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:15:46 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 70.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Seller_mdl')
+ 3 APPPATH/Controllers/Seller_cntrl.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Seller_mdl')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:16:16 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 96.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Seller_mdl')
+ 3 APPPATH/Controllers/Seller_cntrl.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Seller_mdl')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:16:32 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 83.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Seller_mdl')
+ 3 APPPATH/Controllers/Seller_cntrl.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Seller_mdl')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:16:51 --> Error: Call to undefined function App\Models\YEAR()
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 81.
+ 1 APPPATH/Controllers/Seller_cntrl.php(58): App\Models\Seller_mdl->getgraphdata()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 11:23:09 --> ErrorException: Undefined variable $sql
+[Method: GET, Route: Seller]
+in APPPATH/Models/Seller_mdl.php on line 66.
+ 1 APPPATH/Models/Seller_mdl.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', '/home/havellslighting/public_html/partner/app/Models/Seller_mdl.php', 66)
+ 2 APPPATH/Controllers/Seller_cntrl.php(60): App\Models\Seller_mdl->getperdaydata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 11:23:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND by_user='customer'
+            GROUP BY MONTH(created_at)
+            ORDE' at line 5 in /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/havellslighting/public_html/partner/system/Database/MySQLi/Connection.php(312): mysqli->query('\n            SE...', 0)
+#1 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\n            SE...')
+#2 /home/havellslighting/public_html/partner/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\n            SE...')
+#3 /home/havellslighting/public_html/partner/app/Models/Seller_mdl.php(66): CodeIgniter\Database\BaseConnection->query('\n            SE...')
+#4 /home/havellslighting/public_html/partner/app/Controllers/Seller_cntrl.php(60): App\Models\Seller_mdl->getperdaydata()
+#5 /home/havellslighting/public_html/partner/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+#6 /home/havellslighting/public_html/partner/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+#7 /home/havellslighting/public_html/partner/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-25 11:23:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND by_user='customer'
+            GROUP BY MONTH(created_at)
+            ORDE' at line 5
+[Method: GET, Route: Seller]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Seller_mdl.php(66): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 2 APPPATH/Controllers/Seller_cntrl.php(60): App\Models\Seller_mdl->getperdaydata()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:23:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND by_user='customer'
+            GROUP BY MONTH(created_at)
+            ORDE' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 3 APPPATH/Models/Seller_mdl.php(66): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 4 APPPATH/Controllers/Seller_cntrl.php(60): App\Models\Seller_mdl->getperdaydata()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 11:23:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND by_user='customer'
+            GROUP BY MONTH(created_at)
+            ORDE' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 4 APPPATH/Models/Seller_mdl.php(66): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                MONTH(created_at) AS month,
+                COUNT(DISTINCT by_user_id) AS customer_logins_per_month
+            FROM logs
+            WHERE YEAR(created_at) = 2024) AND by_user=\'customer\'
+            GROUP BY MONTH(created_at)
+            ORDER BY month;
+        ')
+ 5 APPPATH/Controllers/Seller_cntrl.php(60): App\Models\Seller_mdl->getperdaydata()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Seller_cntrl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 11:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 11:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
