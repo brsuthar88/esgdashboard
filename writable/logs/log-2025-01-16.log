@@ -1,0 +1,14 @@
+CRITICAL - 2025-01-16 06:16:06 --> ErrorException: Undefined array key 0
+[Method: POST, Route: admin/save-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 557.
+ 1 APPPATH/Controllers/Admin_cntrl.php(557): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 557)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin_cntrl->adminsavequotation()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-16 11:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-16 12:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-16 12:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-16 12:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

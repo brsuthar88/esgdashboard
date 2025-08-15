@@ -1,0 +1,1734 @@
+DEBUG - 2025-01-31 03:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 03:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:14:24 --> Error: Call to undefined function peint_r()
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Helpers/zoho_helper.php on line 459.
+ 1 APPPATH/Controllers/Admin_cntrl.php(2611): zoho_get_pricebooks('1000.4e34397e8aeac9a875a8f3cd1196c3df.291f6481023a0a3f4b1aca23dab4edab', '859918730')
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:15:56 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:17:06 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:17:55 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:18:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:18:34 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 05:19:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2609): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 00:24:24 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 43.
+ 1 APPPATH/Views/admin/category.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', '/home/havellslighting/public_html/partner/app/Views/admin/category.php', 43)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/category.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(2618): view('/admin/category', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 00:25:18 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 44.
+ 1 APPPATH/Views/admin/category.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/havellslighting/public_html/partner/app/Views/admin/category.php', 44)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/category.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(2618): view('/admin/category', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 00:26:18 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 44.
+ 1 APPPATH/Views/admin/category.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/havellslighting/public_html/partner/app/Views/admin/category.php', 44)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/category.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(2618): view('/admin/category', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 00:26:43 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 46.
+ 1 APPPATH/Views/admin/category.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/havellslighting/public_html/partner/app/Views/admin/category.php', 46)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/category.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(2618): view('/admin/category', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 00:27:48 --> ErrorException: Undefined array key "customer_category_id"
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 104.
+ 1 APPPATH/Views/admin/category.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_category_id"', '/home/havellslighting/public_html/partner/app/Views/admin/category.php', 104)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/category.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(2616): view('/admin/category', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 05:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 05:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 06:01:09 --> ErrorException: Undefined variable $finaldata
+[Method: GET, Route: admin/inventory]
+in APPPATH/Controllers/Admin_cntrl.php on line 1160.
+ 1 APPPATH/Controllers/Admin_cntrl.php(1160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $finaldata', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 1160)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 01:18:03 --> ErrorException: Undefined array key "Rate-Distributor"
+[Method: GET, Route: admin/inventory]
+in APPPATH/Views/admin/inventory.php on line 62.
+ 1 APPPATH/Views/admin/inventory.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Rate-Distributor"', '/home/havellslighting/public_html/partner/app/Views/admin/inventory.php', 62)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/admin/inventory.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/inventory', [], true)
+ 5 APPPATH/Controllers/Admin_cntrl.php(1189): view('/admin/inventory', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->inventory()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 01:22:02 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/list-categories]
+in APPPATH/Views/admin/category.php on line 45.
+ 1 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include()
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/admin/category', [], true)
+ 4 APPPATH/Controllers/Admin_cntrl.php(2622): view('/admin/category', [...])
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 01:38:57 --> ErrorException: Undefined array key "Rate-Distributor"
+[Method: GET, Route: seller/inventory]
+in APPPATH/Views/salesperson/inventory.php on line 62.
+ 1 APPPATH/Views/salesperson/inventory.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Rate-Distributor"', '/home/havellslighting/public_html/partner/app/Views/salesperson/inventory.php', 62)
+ 2 FCPATH/vendor/codeigniter4/framework/system/View/View.php(224): include('/home/havellslighting/public_html/partner/app/Views/salesperson/inventory.php')
+ 3 FCPATH/vendor/codeigniter4/framework/system/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('/salesperson/inventory', [], true)
+ 5 APPPATH/Controllers/Seller_cntrl.php(1211): view('/salesperson/inventory', [...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Seller_cntrl->inventory()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Seller_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 06:46:38 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(370): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 06:46:59 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(370): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 06:47:07 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: inventory]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(1022): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 06:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 06:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-31 07:06:39 --> mysqli_sql_exception: Unknown column 'customer_category' in 'field list' in /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `custome...', 0)
+#1 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+#8 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+#9 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#10 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-31 07:06:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+[Method: POST, Route: admin/datatable-list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 2 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 3 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 5 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:06:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 7 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:06:39 --> [Caused by] mysqli_sql_exception: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-31 07:06:46 --> mysqli_sql_exception: Unknown column 'customer_category' in 'field list' in /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `custome...', 0)
+#1 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+#8 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+#9 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#10 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-31 07:06:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+[Method: POST, Route: admin/datatable-list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 2 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 3 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 5 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:06:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 7 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:06:46 --> [Caused by] mysqli_sql_exception: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-31 07:07:15 --> mysqli_sql_exception: Unknown column 'customer_category' in 'field list' in /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `custome...', 0)
+#1 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 /home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+#8 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+#9 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#10 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-31 07:07:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+[Method: POST, Route: admin/datatable-list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 2 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 3 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 5 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:07:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 7 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 07:07:15 --> [Caused by] mysqli_sql_exception: Unknown column 'customer_category' in 'field list'
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `customer_category`
+FROM `admin`
+ LIMIT 10', [], false)
+ 5 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(234): CodeIgniter\Database\BaseBuilder->get()
+ 6 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableQuery.php(74): Hermawan\DataTables\DataTableQuery->queryResult()
+ 7 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(187): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 8 APPPATH/Controllers/Admin_cntrl.php(2899): Hermawan\DataTables\DataTable->toJson(true)
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 07:08:35 --> ErrorException: Undefined array key "no_quotes"
+[Method: POST, Route: admin/datatable-list-categories]
+in FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php on line 277.
+ 1 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_quotes"', '/home/havellslighting/public_html/partner/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php', 277)
+ 2 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Object(CodeIgniter\Database\MySQLi\Builder))
+ 3 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(35): Hermawan\DataTables\DataTableColumnDefs->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 4 FCPATH/vendor/hermawan/codeigniter4-datatables/src/DataTable.php(46): Hermawan\DataTables\DataTable->__construct(Object(CodeIgniter\Database\MySQLi\Builder))
+ 5 APPPATH/Controllers/Admin_cntrl.php(2892): Hermawan\DataTables\DataTable::of(Object(CodeIgniter\Database\MySQLi\Builder))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->datatablelistcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 07:19:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2613): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 07:19:11 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2613): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 07:19:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2613): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 07:19:39 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: admin/list-categories]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(2613): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listcategories()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 07:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 07:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:33:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\Admin_mdl::getadminlistquotation
+[Method: GET, Route: admin/list-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/Model.php on line 930.
+ 1 APPPATH/Controllers/Admin_cntrl.php(232): CodeIgniter\Model->__call('getadminlistquotation', [...])
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->listquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:46:10 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\Customer_mdl::getCustomerlistquotation
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/Model.php on line 930.
+ 1 APPPATH/Controllers/Customer_cntrl.php(345): CodeIgniter\Model->__call('getCustomerlistquotation', [...])
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:46:30 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\Customer_mdl::getCustomerlistquotation
+[Method: GET, Route: inventory]
+in FCPATH/vendor/codeigniter4/framework/system/Model.php on line 930.
+ 1 APPPATH/Controllers/Customer_cntrl.php(997): CodeIgniter\Model->__call('getCustomerlistquotation', [...])
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:48:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\Customer_mdl::getCustomerlistquotation
+[Method: GET, Route: inventory]
+in FCPATH/vendor/codeigniter4/framework/system/Model.php on line 930.
+ 1 APPPATH/Controllers/Customer_cntrl.php(995): CodeIgniter\Model->__call('getCustomerlistquotation', [...])
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:48:52 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\Customer_mdl::getCustomerlistquotation
+[Method: GET, Route: inventory]
+in FCPATH/vendor/codeigniter4/framework/system/Model.php on line 930.
+ 1 APPPATH/Controllers/Customer_cntrl.php(995): CodeIgniter\Model->__call('getCustomerlistquotation', [...])
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->inventory()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:52:01 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: save-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 455.
+ 1 APPPATH/Controllers/Customer_cntrl.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 455)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:54:00 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: save-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 455.
+ 1 APPPATH/Controllers/Customer_cntrl.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 455)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:54:27 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: save-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 455.
+ 1 APPPATH/Controllers/Customer_cntrl.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 455)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 08:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:20 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: save-quotation]
+in APPPATH/Controllers/Customer_cntrl.php on line 455.
+ 1 APPPATH/Controllers/Customer_cntrl.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/havellslighting/public_html/partner/app/Controllers/Customer_cntrl.php', 455)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:26 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: POST, Route: save-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(447): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: POST, Route: save-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(447): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customersavequotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:42 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(366): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:45 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(366): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 08:58:45 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(366): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 08:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:00:00 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400 
+[Method: GET, Route: add-quotation]
+in FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php on line 709.
+ 1 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400 ')
+ 2 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://accounts.zoho.com/oauth/v2/token')
+ 4 APPPATH/Helpers/zoho_helper.php(16): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://accounts.zoho.com/oauth/v2/token', [...])
+ 5 APPPATH/Controllers/Customer_cntrl.php(366): zoho_authenticate('1000.DJ6XD92RNF06EG7B4VPUUXWSRT7HOH', '0a10a36fe3221ea5a022e1c04225cbabb5e7163311', '1000.12dc9989392c16c93604f48b3c3a16e8.4b689507ffc506e534db8c0079991ba8')
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Customer_cntrl->customeraddquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:51:15 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 439.
+ 1 APPPATH/Controllers/Admin_cntrl.php(439): date()
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:51:35 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 439.
+ 1 APPPATH/Controllers/Admin_cntrl.php(439): date()
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:52:20 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 438.
+ 1 APPPATH/Controllers/Admin_cntrl.php(438): date()
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:52:44 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 436.
+ 1 APPPATH/Controllers/Admin_cntrl.php(436): date()
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 09:53:51 --> ArgumentCountError: date() expects at least 1 argument, 0 given
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 436.
+ 1 APPPATH/Controllers/Admin_cntrl.php(436): date()
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-31 09:55:14 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `quotati...', 0)
+#1 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `quotati...')
+#2 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `quotati...')
+#3 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotati...', Array, false)
+#4 /home/havellslighting/public_html/partner/app/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(447): App\Models\Admin_mdl->updatestatus(Array)
+#6 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+#7 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#8 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-31 09:55:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: admin/change-status]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 2 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH/Controllers/Admin_cntrl.php(447): App\Models\Admin_mdl->updatestatus([...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 09:55:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `quotation` SET `status` = \'invoice\', `comment` = (\'invoice\',\'2025-01-31 09:55:14\',\'\\"This is Invoice Testing comment\\"\')
+WHERE `quotation_id` = \'1\'')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `quotation` SET `status` = \'invoice\', `comment` = (\'invoice\',\'2025-01-31 09:55:14\',\'\\"This is Invoice Testing comment\\"\')
+WHERE `quotation_id` = \'1\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 4 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH/Controllers/Admin_cntrl.php(447): App\Models\Admin_mdl->updatestatus([...])
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-31 09:55:14 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('UPDATE `quotation` SET `status` = \'invoice\', `comment` = (\'invoice\',\'2025-01-31 09:55:14\',\'\\"This is Invoice Testing comment\\"\')
+WHERE `quotation_id` = \'1\'', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `quotation` SET `status` = \'invoice\', `comment` = (\'invoice\',\'2025-01-31 09:55:14\',\'\\"This is Invoice Testing comment\\"\')
+WHERE `quotation_id` = \'1\'')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `quotation` SET `status` = \'invoice\', `comment` = (\'invoice\',\'2025-01-31 09:55:14\',\'\\"This is Invoice Testing comment\\"\')
+WHERE `quotation_id` = \'1\'')
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 5 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/Admin_cntrl.php(447): App\Models\Admin_mdl->updatestatus([...])
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 8 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 09:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 09:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 10:06:59 --> ErrorException: Undefined property: App\Controllers\Admin_cntrl::$db
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 438.
+ 1 APPPATH/Controllers/Admin_cntrl.php(438): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_cntrl::$db', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 438)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 10:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 10:11:10 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/change-status]
+in FCPATH/vendor/codeigniter4/framework/system/Database/Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/Query.php', 331)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(331): implode(',', [...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 7 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH/Controllers/Admin_cntrl.php(465): App\Models\Admin_mdl->updatestatus([...])
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 10:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 10:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 10:14:21 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/change-status]
+in FCPATH/vendor/codeigniter4/framework/system/Database/Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/Query.php', 331)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(331): implode(',', [...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 7 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH/Controllers/Admin_cntrl.php(466): App\Models\Admin_mdl->updatestatus([...])
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:33:40 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/change-status]
+in FCPATH/vendor/codeigniter4/framework/system/Database/Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/Query.php', 331)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(331): implode(',', [...])
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...])
+ 4 FCPATH/vendor/codeigniter4/framework/system/Database/Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 FCPATH/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `quotation` SET `status` = :status:, `comment` = :comment:
+WHERE `quotation_id` = :quotation_id:', [...], false)
+ 7 APPPATH/Models/Admin_mdl.php(245): CodeIgniter\Database\BaseBuilder->update([...])
+ 8 APPPATH/Controllers/Admin_cntrl.php(458): App\Models\Admin_mdl->updatestatus([...])
+ 9 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+10 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+11 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:40:23 --> ErrorException: Undefined array key 0
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 444.
+ 1 APPPATH/Controllers/Admin_cntrl.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 444)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:40:47 --> ErrorException: Undefined array key 0
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 443.
+ 1 APPPATH/Controllers/Admin_cntrl.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 443)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:41:00 --> ErrorException: Undefined array key 0
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 443.
+ 1 APPPATH/Controllers/Admin_cntrl.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 443)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:42:09 --> ErrorException: Undefined variable $row
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 443.
+ 1 APPPATH/Controllers/Admin_cntrl.php(443): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 443)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:42:21 --> ErrorException: Undefined variable $row
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 444.
+ 1 APPPATH/Controllers/Admin_cntrl.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 444)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:48:15 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: admin/list-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 475.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_cntrl')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_cntrl')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Admin_cntrl', true)
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:50:33 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: admin/list-quotation]
+in APPPATH/Controllers/Admin_cntrl.php on line 480.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_cntrl')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_cntrl')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Admin_cntrl', true)
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:52:33 --> ErrorException: Undefined variable $newComment
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 469.
+ 1 APPPATH/Controllers/Admin_cntrl.php(469): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newComment', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 469)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:58:00 --> ErrorException: Undefined array key "invoice"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 446.
+ 1 APPPATH/Controllers/Admin_cntrl.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "invoice"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 446)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 11:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 11:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 11:58:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 446.
+ 1 APPPATH/Controllers/Admin_cntrl.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 446)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:03:41 --> ErrorException: Undefined array key "accept"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 447.
+ 1 APPPATH/Controllers/Admin_cntrl.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "accept"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 447)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:11:02 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 457.
+ 1 APPPATH/Controllers/Admin_cntrl.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 457)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:11:25 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 457.
+ 1 APPPATH/Controllers/Admin_cntrl.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 457)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:12:22 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 457.
+ 1 APPPATH/Controllers/Admin_cntrl.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 457)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:13:29 --> ErrorException: Undefined array key "comment"
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 458.
+ 1 APPPATH/Controllers/Admin_cntrl.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment"', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 458)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-31 12:20:23 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/change-status]
+in APPPATH/Controllers/Admin_cntrl.php on line 463.
+ 1 APPPATH/Controllers/Admin_cntrl.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 463)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->savestatusquotation()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-31 12:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 12:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 15:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-31 15:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

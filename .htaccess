@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect Trailing Slashes (except actual directories)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# Handle Front Controller (index.php)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# Disable directory browsing
+Options -Indexes
+
+# Set environment variable for CodeIgniter
+SetEnv CI_ENVIRONMENT development

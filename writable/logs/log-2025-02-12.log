@@ -1,0 +1,157 @@
+CRITICAL - 2025-02-12 06:27:45 --> ErrorException: Cannot declare class App\Filters\GlobalSettingFilter, because the name is already in use
+[Method: GET, Route: globalsettingfilter/clearTables]
+in APPPATH/Controllers/GlobalSettingFilter.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-12 06:28:27 --> ErrorException: Cannot declare class App\Filters\GlobalSettingFilter, because the name is already in use
+[Method: GET, Route: globalsettingfilter/clearTables]
+in APPPATH/Controllers/GlobalSettingFilter.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-12 06:28:46 --> ErrorException: Cannot declare class App\Filters\GlobalSettingFilter, because the name is already in use
+[Method: GET, Route: globalsettingfilter/clearTables]
+in APPPATH/Controllers/GlobalSettingFilter.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-12 06:29:42 --> ErrorException: Cannot declare class App\Filters\GlobalSettingFilter, because the name is already in use
+[Method: GET, Route: private3011/clearTables]
+in APPPATH/Controllers/GlobalSettingFilter.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-02-12 06:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-12 06:31:01 --> ErrorException: Undefined property: App\Controllers\Admin_cntrl::$db
+[Method: GET, Route: private3011/clearTables]
+in APPPATH/Controllers/Admin_cntrl.php on line 2994.
+ 1 APPPATH/Controllers/Admin_cntrl.php(2994): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_cntrl::$db', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 2994)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-12 06:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-12 06:32:26 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`havellslighting_partner`.`admin`, CONSTRAINT `companyid`) in /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('TRUNCATE TABLE ...', 0)
+#1 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE TABLE ...')
+#2 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE TABLE ...')
+#3 /home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php(2999): CodeIgniter\Database\BaseConnection->query('TRUNCATE TABLE ...')
+#4 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+#5 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+#6 /home/havellslighting/public_html/partner/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/havellslighting/public_html/partner/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 /home/havellslighting/public_html/partner/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 /home/havellslighting/public_html/partner/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-02-12 06:32:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot truncate a table referenced in a foreign key constraint (`havellslighting_partner`.`admin`, CONSTRAINT `companyid`)
+[Method: GET, Route: private3011/clearTables]
+in FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php on line 692.
+ 1 APPPATH/Controllers/Admin_cntrl.php(2999): CodeIgniter\Database\BaseConnection->query('TRUNCATE TABLE `company`')
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 06:32:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot truncate a table referenced in a foreign key constraint (`havellslighting_partner`.`admin`, CONSTRAINT `companyid`)
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 332.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE TABLE `company`')
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE TABLE `company`')
+ 3 APPPATH/Controllers/Admin_cntrl.php(2999): CodeIgniter\Database\BaseConnection->query('TRUNCATE TABLE `company`')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 06:32:26 --> [Caused by] mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`havellslighting_partner`.`admin`, CONSTRAINT `companyid`)
+in FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php on line 327.
+ 1 FCPATH/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('TRUNCATE TABLE `company`', 0)
+ 2 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE TABLE `company`')
+ 3 FCPATH/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE TABLE `company`')
+ 4 APPPATH/Controllers/Admin_cntrl.php(2999): CodeIgniter\Database\BaseConnection->query('TRUNCATE TABLE `company`')
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 7 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 06:39:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "clear_tables_view.php"
+[Method: GET, Route: private3011/cleardatabase]
+in FCPATH/vendor/codeigniter4/framework/system/Exceptions/FrameworkException.php on line 39.
+ 1 FCPATH/vendor/codeigniter4/framework/system/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clear_tables_view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('clear_tables_view', [], true)
+ 3 APPPATH/Controllers/Admin_cntrl.php(2993): view('clear_tables_view')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->cleardatabases()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 06:40:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "clear_tables_view.php"
+[Method: GET, Route: private3011/cleardatabase]
+in FCPATH/vendor/codeigniter4/framework/system/Exceptions/FrameworkException.php on line 39.
+ 1 FCPATH/vendor/codeigniter4/framework/system/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clear_tables_view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('clear_tables_view', [], true)
+ 3 APPPATH/Controllers/Admin_cntrl.php(2993): view('clear_tables_view')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->cleardatabases()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 06:44:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "clear_tables_view.php"
+[Method: GET, Route: private3011]
+in FCPATH/vendor/codeigniter4/framework/system/Exceptions/FrameworkException.php on line 39.
+ 1 FCPATH/vendor/codeigniter4/framework/system/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clear_tables_view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('clear_tables_view', [], true)
+ 3 APPPATH/Controllers/Admin_cntrl.php(2993): view('clear_tables_view')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->cleardatabases()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-12 06:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-12 06:45:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "clear_tables_view.php"
+[Method: GET, Route: private3011]
+in FCPATH/vendor/codeigniter4/framework/system/Exceptions/FrameworkException.php on line 39.
+ 1 FCPATH/vendor/codeigniter4/framework/system/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clear_tables_view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('clear_tables_view', [], true)
+ 3 APPPATH/Controllers/Admin_cntrl.php(2993): view('clear_tables_view')
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->cleardatabases()
+ 5 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 6 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-12 06:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-12 06:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-12 07:09:28 --> ErrorException: Undefined variable $model
+[Method: POST, Route: private3011/clearTables]
+in APPPATH/Controllers/Admin_cntrl.php on line 3002.
+ 1 APPPATH/Controllers/Admin_cntrl.php(3002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 3002)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-12 07:09:34 --> ErrorException: Undefined variable $model
+[Method: POST, Route: private3011/clearTables]
+in APPPATH/Controllers/Admin_cntrl.php on line 3002.
+ 1 APPPATH/Controllers/Admin_cntrl.php(3002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 3002)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-12 07:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-12 07:09:58 --> ErrorException: Undefined variable $model
+[Method: POST, Route: private3011/clearTables]
+in APPPATH/Controllers/Admin_cntrl.php on line 3002.
+ 1 APPPATH/Controllers/Admin_cntrl.php(3002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', '/home/havellslighting/public_html/partner/app/Controllers/Admin_cntrl.php', 3002)
+ 2 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Admin_cntrl->clearTables()
+ 3 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_cntrl))
+ 4 FCPATH/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-12 07:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
