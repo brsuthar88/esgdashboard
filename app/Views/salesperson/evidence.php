@@ -8,7 +8,7 @@
 <!-- css -->
   <?php echo view('salesperson/partials/Sellercss'); ?>
 <style>
-    body {
+    <!--body {
       background-color: #f8f9fc;
       font-family: 'Segoe UI', sans-serif;
     }
@@ -29,7 +29,7 @@
       padding: 5px 10px;
       font-size: 12px;
       text-transform: capitalize;
-    }
+    }-->
     .badge-verified { background-color: #d1f3d4; color: #0b7f1c; }
     .badge-pending { background-color: #fff5cc; color: #b58900; }
     .badge-rejected { background-color: #fddede; color: #c70000; }
